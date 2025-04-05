@@ -1,0 +1,18 @@
+@import "src/shared";
+
+$btn-bg-color: #2563eb;
+$btn-bg-color-hover: #1d4ed8;
+
+.Button {
+  background-color: $btn-bg-color;
+  color: $text-color-light;
+  padding: $base-space 2 * $base-space;
+  border-radius: $base-space;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $btn-bg-color-hover;
+  }
+}

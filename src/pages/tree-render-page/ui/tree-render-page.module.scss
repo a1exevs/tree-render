@@ -1,0 +1,15 @@
+@import "src/shared";
+
+$page-content-max-width: 100 * $base-space;
+
+.TreeRenderPage {
+  display: flex;
+  flex-direction: column;
+  gap: 2 * $base-space;
+  padding: 2 * $base-space;
+  max-width: $page-content-max-width;
+  margin: 0 auto;
+  &__Title {
+    @include app-title-font();
+  }
+}

@@ -1,0 +1,11 @@
+@import "src/shared";
+
+$error-text-color: red;
+$error-border-color: red;
+
+.ErrorMessage {
+  color: $error-text-color;
+  border: $border-small-size solid $error-border-color;
+  border-radius: $base-space;
+  padding: $base-space 2 * $base-space;
+}

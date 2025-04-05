@@ -1,0 +1,12 @@
+@import 'src/shared';
+
+$bg-color: #3b3b3b;
+
+.FormattedTextField {
+  color: $text-color-light;
+  background-color: $bg-color;
+  padding: 2 * $base-space;
+  border-radius: $base-space;
+  font-family: monospace;
+  overflow: auto;
+}

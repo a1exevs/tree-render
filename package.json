@@ -1,0 +1,63 @@
+{
+  "name": "tree-render",
+  "version": "0.8.0",
+  "description": "A mini-application that implements an algorithm for converting a string into a tree and then rendering it.",
+  "author": "AlexEvs",
+  "private": true,
+  "keywords": [
+    "js",
+    "ts",
+    "react",
+    "tree"
+  ],
+  "scripts": {
+    "start": "yarn run set-env:prod && react-app-rewired start",
+    "dev": "yarn run set-env:dev && react-app-rewired start",
+    "set-env:prod": "node update-env.js prod",
+    "set-env:dev": "node update-env.js dev",
+    "build": "react-app-rewired build",
+    "serve": "serve -s build",
+    "check-deps": "yarn outdated",
+    "upgrade-deps": "yarn upgrade --latest",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,scss}\"",
+    "test": "react-scripts test",
+    "lint": "echo TODO",
+    "lint:fix": "echo TODO"
+  },
+  "dependencies": {
+    "classnames": "2.5.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-scripts": "5.0.1",
+    "sass": "1.86.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "@types/jest": "29.5.14",
+    "@types/node": "22.14.0",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.1",
+    "dotenv": "16.4.7",
+    "fs": "0.0.1-security",
+    "lint-staged": "15.5.0",
+    "path": "0.12.7",
+    "prettier": "3.5.3",
+    "react-app-rewired": "2.2.1",
+    "serve": "14.2.4",
+    "typescript": "5.8.3",
+    "webpack-bundle-analyzer": "4.10.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "yarn@4.1.0"
+}

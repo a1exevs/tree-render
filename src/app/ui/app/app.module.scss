@@ -1,0 +1,12 @@
+@import "src/shared";
+
+$app-max-width: 1920px;
+$app-max-height: 100vh;
+
+.App {
+  background: $app-bg-color-dark;
+  margin: 0 auto;
+  max-width: $app-max-width;
+  min-height: $app-max-height;
+  padding: 0;
+}

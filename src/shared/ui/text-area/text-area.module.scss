@@ -1,0 +1,14 @@
+@import "src/shared";
+
+$bg-color: #3b3b3b;
+
+.TextArea {
+  color: $text-color-light;
+  width: 100%;
+  border: $border-small-size solid #ccc;
+  padding: $base-space;
+  border-radius: $base-space;
+  font-family: monospace;
+  resize: vertical;
+  background-color: $bg-color;
+}
